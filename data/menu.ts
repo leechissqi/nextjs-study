@@ -13,4 +13,12 @@ export const menus: { name: string, items: Items[] }[] = [
       { name: "라우팅 그룹", slug: "route-groups", description: "URL 경로에 영향을 주지 않고 라우트를 조직" },
     ],
   },
+  {
+    name: "라우팅: UI",
+    items: [
+      { name: "로딩", slug: "loading", description: "의미가 있는 로딩 UI 생성"},
+      { name: "에러 처리", slug: "error-handling", description: "에러 발생 시 보여주는 UI 생성"},
+      { name: "페이지 없음(404)", slug: "not-found", description: "페이지 없음 UI 생성"},
+    ],
+  },
 ];
